@@ -1,0 +1,43 @@
+#edit-this-page {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0.3em 1em;
+	margin: 0 auto;
+	font-family: inherit;
+	font-size: 1.3em;
+	border-width: 0;
+	border-radius: 0.3em;
+	@include btn-color($white, $purple-100);
+}
+
+.automated {
+	text-align: justify;
+	background-color: #f8d7da;
+	color: #842029;
+	border-color: #f5c2c7;
+	border-radius: 0.3em;
+	padding: 1em;
+}
+
+.container {
+    margin: 10px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.justify{
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.site-nav, .site-header, .site-footer {
+	width: 100%;
+	max-width: 600px;
+}
