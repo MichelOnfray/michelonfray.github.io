@@ -7,9 +7,12 @@ search_enabled: true
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Ameliorez de cette transcription !"
-gh_edit_repository: "https://michelonfray.github.io" # the github URL for your repo
+gh_edit_repository: "https://github.com/MichelOnfray/michelonfray.github.io" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 footer_content: "Cette transcription a été réalisée à l’aide de Google Speech Recognition. La reconnaissance automatisée peut ne pas tenir compte du contexte, le sens complet peut être perdu ou des mots peuvent être reconnus de manière inexacte. Par conséquent, l'exactitude du texte ne peut être garantie."
+
+plugins:
+  - jekyll-sitemap
