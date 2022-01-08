@@ -1,7 +1,7 @@
 {%- if site.footer_content -%}
 	<p id="transcript" class="automated">{{ site.footer_content }}</p>
-	<script>
-		window.matchMedia('(prefers-color-scheme: dark)').matches ? jtd.setTheme('dark') : jtd.setTheme('light');
-		if (!/\.html$/.test(window.location)) document.getElementById("transcript").hidden = true;
-	</script>
 {%- endif -%}
+<script>
+	window.matchMedia('(prefers-color-scheme: dark)').matches ? jtd.setTheme('dark') : jtd.setTheme('light');
+	if (!/\.html$/.test(window.location)) document.getElementById("transcript").hidden = true;
+</script>
