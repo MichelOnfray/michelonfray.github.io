@@ -14,5 +14,5 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 
 footer_content: "Cette transcription a été réalisée à l’aide de Google Speech Recognition. La reconnaissance automatisée peut ne pas tenir compte du contexte, le sens complet peut être perdu ou des mots peuvent être reconnus de manière inexacte. Par conséquent, l'exactitude du texte ne peut être garantie."
 
-#plugins:
-#  - jekyll-sitemap
+plugins:
+  - jekyll-sitemap
